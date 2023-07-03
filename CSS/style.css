@@ -57,22 +57,25 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 3px 30px 3px;
+  margin-top: 3px;
+  margin-left: 40px;
   padding: 5px 0;
   color: #032229;
-  text-shadow: rgb(240, 240, 236) 1px 0 10px;
+  text-shadow: rgb(240, 240, 236) 1px 0 30px;
   line-height: 15px;
 }
 .date {
   font-size: 25px;
   font-style: italic;
   font-weight: bold;
+  margin-right: 2px;
 }
 
 .time {
   font-size: 25px;
   font-weight: bold;
   line-height: 30px;
+  margin-right: 40px;
 }
 .time small {
   font-size: 18px;
@@ -87,4 +90,7 @@ footer {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-box-decoration-break: clone;
+}
+a:hover {
+  text-shadow: rgb(240, 240, 236) 1px 0 30px;
 }
