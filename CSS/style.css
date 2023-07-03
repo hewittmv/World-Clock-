@@ -39,7 +39,7 @@ select {
 }
 h1 {
   text-align: center;
-  opacity: 0.2;
+  opacity: 0.3;
   font-size: 36px;
   background-image: linear-gradient(150deg, #28d8ff, #032eff);
   filter: drop-shadow(0 20px 30px #28d8ff33);
