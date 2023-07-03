@@ -17,6 +17,15 @@ function updateTime() {
   parisTimeElement.innerHTML = parisTime.format(
     "hh:mm:ss [<small>]A [</small>]"
   );
+  let bangkokElement = document.querySelector("#bangkok");
+  let bangkokDateElement = bangkokElement.querySelector(".date");
+  let bangkokTimeElement = bangkokElement.querySelector(".time");
+  let bangkokTime = moment().tz("Asia/Bangkok");
+
+  bangkokDateElement.innerHTML = bangkokTime.format("Do MMMM YYYY");
+  bangkokTimeElement.innerHTML = bangkokTime.format(
+    "hh:mm:ss [<small>]A [</small>]"
+  );
 }
 function updateCity(event) {
   let cityTimeZone = event.target.value;
