@@ -26,6 +26,15 @@ function updateTime() {
   bangkokTimeElement.innerHTML = bangkokTime.format(
     "hh:mm:ss [<small>]A [</small>]"
   );
+  let viennaElement = document.querySelector("#vienna");
+  let viennaDateElement = viennaElement.querySelector(".date");
+  let viennaTimeElement = viennaElement.querySelector(".time");
+  let viennaTime = moment().tz("Europe/Vienna");
+
+  viennaDateElement.innerHTML = viennaTime.format("Do MMMM YYYY");
+  viennaTimeElement.innerHTML = viennaTime.format(
+    "hh:mm:ss [<small>]A [</small>]"
+  );
 }
 function updateCity(event) {
   let cityTimeZone = event.target.value;
