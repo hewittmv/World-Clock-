@@ -26,6 +26,7 @@ select {
   margin-left: 27%;
   font-size: 20px;
   width: 50%;
+  text-align: center;
   border-radius: 5px;
   border-color: whitesmoke;
   padding: 9px;
@@ -56,10 +57,10 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 5px 50px 5px;
+  margin: 3px 30px 3px;
   padding: 5px 0;
-  color: #28d8ff;
-  text-shadow: 4px 6px 4px rgba(4, 34, 36, 0.6);
+  color: #032229;
+  text-shadow: rgb(240, 240, 236) 1px 0 10px;
 }
 .date {
   font-size: 25px;
