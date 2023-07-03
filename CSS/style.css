@@ -61,6 +61,7 @@ h2 {
   padding: 5px 0;
   color: #032229;
   text-shadow: rgb(240, 240, 236) 1px 0 10px;
+  line-height: 15px;
 }
 .date {
   font-size: 25px;
@@ -71,11 +72,11 @@ h2 {
 .time {
   font-size: 25px;
   font-weight: bold;
-  line-height: 36px;
+  line-height: 30px;
 }
 .time small {
   font-size: 18px;
-  line-height: 36px;
+  line-height: 30px;
   vertical-align: middle;
 }
 footer {
